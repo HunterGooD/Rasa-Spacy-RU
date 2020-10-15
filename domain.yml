@@ -1,0 +1,98 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- anime
+- philosofy
+- status
+- greet
+- cando
+- love
+- humor
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- motivation
+responses:
+  utter_greet:
+  - text: Здравствуй человек!
+  - text: Привет
+  - text: И вам не хварать!
+  - text: Категорически вас приветствую
+  - text: Привет!
+  - text: Бомжур
+  - text: Привет, юзер!
+  - text: Привет, человек
+  - text: Хорошего времени суток!
+  - text: Привет!)
+  - text: Здравствуй кожаный мешок
+  - text: Добрый день
+  - text: Здравствуй!
+  - text: Приветствую тебя!
+  - text: Хау
+  - text: Добро пожаловать
+  - text: Здравствуй
+  utter_cheer_up:
+  - text: 'Это поднимет тебе настроение:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Чем могу помочь тебе
+  utter_happy:
+  - text: Замечательно!
+  utter_goodbye:
+  - text: Прощай
+  - text: Пока!
+  - text: До встречи
+  - text: Ты заходи если что
+  - text: Всего доброго
+  - text: Всего доброго
+  - text: До встречи!
+  - text: Если что, я тут :)
+  - text: До встречи
+  - text: Обращайтесь :)
+  - text: Если что, обращайтесь :)
+  utter_iamabot:
+  - text: Я бот, создатель идиот
+  utter_status:
+  - text: Конечно я здесь :)
+  - text: Я всегда тут
+  utter_cando:
+  - text: пока я умею рандомно отвечать на ваши вопросы
+  - text: могу распознать ваши вопросы возможно)
+  utter_humor:
+  - text: шутка- люблю смотреть ужасы из-за дивана, так соседи не знаю, что я в их комнате
+  - text: анекдот-  однажды пират, лежа в больнице, по привычке захватил чужое судно!
+  - text: шутка- несчастый случай произошел на фестивале пива - в гараж наведалась жена...
+  - text: анекдот- в челябинске полицейские арестовали дуб. по их словам, у него был ствол
+  - text: шутка- решил однажды царь разделить наследство среди трех своих сыновей. офигеть! сказал четвертый сын
+  - text: анекдот- так, девочка! не качайся на дедушке! не для того повесили
+  utter_motivation:
+  - text: мой хозяин более ленивый чем ты)
+  - text: главное начни
+  - text: но меня же кто-то написал
+  utter_philosofy:
+  - text: если долго буду об этом думать, то процессор сгорит!
+  - text: вот и у меня такой вопрос :)
+  utter_love:
+  - text: значит вкус у нас одинаковый
+  - text: вряд ли -_-
+  utter_anime:
+  - text: Кучу аниме на сайте https://yummyanime.club/
+  - text: Новые аниме тут https://yummyanime.club/ongoing
+  - text: Ой зря зря зря ....
+actions:
+- utter_anime
+- utter_cando
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_humor
+- utter_iamabot
+- utter_love
+- utter_philosofy
+- utter_status
+version: '2.0'

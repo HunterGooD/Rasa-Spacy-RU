@@ -1,0 +1,13 @@
+version: "2.0"
+
+rules:
+
+- rule: Говорить прощай каждый раз когда пользователь прощается
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Говорить "Я бот" каждый раз как пользователь спрашивает кто ты
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
