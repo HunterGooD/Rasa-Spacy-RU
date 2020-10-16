@@ -35,14 +35,6 @@ stories:
   - action: utter_greet
   - intent: status
   - action: utter_status
-  - intent: cando
-  - action: utter_cando
-  - intent: humor
-  - action: utter_humor
-  - intent: love
-  - action: utter_love
-  - intent: philosofy
-  - action: utter_philosofy
 
 - story: interactive_story_1
   steps:
@@ -50,7 +42,3 @@ stories:
   - action: utter_greet
   - intent: anime
   - action: utter_anime
-  - intent: status
-  - action: utter_status
-  - intent: philosofy
-  - action: utter_philosofy
