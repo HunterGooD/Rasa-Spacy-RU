@@ -42,3 +42,21 @@ stories:
   - action: utter_greet
   - intent: anime
   - action: utter_anime
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: anime
+  - action: utter_anime
+  - intent: status
+  - action: utter_status
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+- story: interactive_story_2
+  steps:
+  - intent: cando
+  - action: utter_cando
+  - action: action_restart

@@ -2,14 +2,14 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- anime
-- philosofy
 - status
-- greet
 - cando
+- anime
+- greet
+- goodbye
+- philosofy
 - love
 - humor
-- goodbye
 - affirm
 - deny
 - mood_great

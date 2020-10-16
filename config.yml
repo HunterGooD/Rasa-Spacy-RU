@@ -8,7 +8,7 @@ pipeline:
   - name: "CRFEntityExtractor"
   - name: "EntitySynonymMapper"
   - name: "SklearnIntentClassifier"
-    analyzer: "char_wb"
+    analyzer: "word"
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
